@@ -488,77 +488,9 @@ write.csv(raw_counts,  "raw_counts.csv")
 write.csv(top100, "top100_DE_genes.csv", row.names = TRUE)
 write.csv(top5_pathways, "top5_pathways.csv", row.names = FALSE)
 write.csv(go_top20, "GO_top20_BP_CC_MF.csv", row.names = FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Pembersihan data (WAJIB agar tidak error hclust)
-#Hapus baris dengan NA
-mat_heatmap <- mat_heatmap[
-  rowSums(is.na(mat_heatmap)) == 0,
-]
-
-#Hapus gen dengan varians nol
-gene_variance <- apply(mat_heatmap, 1, var)
-mat_heatmap <- mat_heatmap[gene_variance > 0, ]
-
-#Anotasi kolom (kelompok sampel)
-annotation_col <- data.frame(
-  Group = gset$group
-)
-
-rownames(annotation_col) <- colnames(mat_heatmap)
-
-#Visualisasi heatmap 
-pheatmap(
-  mat_heatmap,
-  scale = "row",                 # Z-score per gen
-  annotation_col = annotation_col,
-  show_colnames = FALSE,         # nama sampel dimatikan
-  show_rownames = TRUE,
-  fontsize_row = 7,
-  clustering_distance_rows = "euclidean",
-  clustering_distance_cols = "euclidean",
-  clustering_method = "complete",
-  main = "Top 50 Differentially Expressed Genes"
-)
-
-
-#PART K. MENYIMPAN HASIL 
-
-# write.csv(): menyimpan hasil analisis ke file CSV
-write.csv(topTableResults, "Hasil_GSE10072_DEG.csv")
-
+write.csv(topTableResults, "Hasil_GSE9750_DEG.csv")
 message("Analisis selesai. File hasil telah disimpan.")
+
 
 
 
