@@ -38,8 +38,72 @@ Tujuan:
 
 <img width="622" height="562" alt="image" src="https://github.com/user-attachments/assets/ff5663c0-25c3-4d53-b8ec-a1463e1fdeb7" /> (Heatmap Dataset GSE9750)
   
-4)	Analisis Enrichment
-    a) Gene Ontology (GO) Enrichment
+3)	Analisis Enrichment
+
+  	a) Gene Ontology (GO) Enrichment
+
+|Description|Ontology|Count|
+| ------------- |-------------|------------- |
+|cytoplasmic translation	|BP	|97|
+|energy derivation by oxidation of organic compounds	|BP	|124|
+|regulation of protein catabolic process	|BP	|112|
+|generation of precursor metabolites and energy|	BP|	132|
+|protein localization to nucleus	|BP|	102|
+|aerobic respiration|	BP|	92|
+|viral process	|BP	|111|
+|cellular respiration	|BP	|99|
+|positive regulation of protein localization|	BP	|122|
+|RNA splicing|	BP	|126|
+|ribonucleoprotein complex biogenesis	|BP	|126|
+|establishment of protein localization to organelle|	BP|	122|
+|nucleocytoplasmic transport	|BP	|98|
+|nuclear transport	|BP|	98|
+|RNA splicing, via transesterification reactions	|BP	|96|
+|cellular component disassembly	|BP	|119|
+|viral life cycle	|BP	|85|
+|RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	|BP	|93|
+|mRNA splicing, via spliceosome|	BP	|93|
+|regulation of intracellular transport|	BP	|80|
+|focal adhesion|	CC|	172|
+|cell-substrate junction|	CC	|174|
+|cytosolic ribosome	|CC|	69|
+|ficolin-1-rich granule|	CC	|85|
+|ficolin-1-rich granule lumen	|CC|	65|
+|secretory granule lumen	|CC|	111|
+|vesicle lumen|	CC	|112|
+|cytoplasmic vesicle lumen|	CC	|111|
+|cytosolic large ribosomal subunit	|CC	|37|
+|peptidase complex	|CC	|56|
+|cell cortex|	CC	|96|
+|ribosomal subunit	|CC	|67|
+|ribosome	|CC	|78|
+|proteasome complex	|CC|	36|
+|endopeptidase complex	|CC	|44|
+|cytosolic small ribosomal subunit|	CC|	26|
+|spliceosomal complex	|CC	|66|
+|coated vesicle|	CC	|87|
+|nuclear speck	|CC	|106|
+|vacuolar lumen|	CC	|58|
+|cadherin binding	|MF	|108|
+|ubiquitin-like protein ligase binding	|MF	|104|
+|ubiquitin protein ligase binding	|MF	|98|
+|structural constituent of ribosome	|MF|	64|
+|RNA polymerase II-specific DNA-binding transcription factor binding	|MF	|89|
+|unfolded protein binding	|MF	|43|
+|DNA-binding transcription factor binding	|MF	|112|
+|nuclear receptor binding	|MF	|45|
+|enzyme inhibitor activity	|MF	|101|
+|protein folding chaperone	|MF	|30|
+|translation factor activity	|MF|	31|
+|electron transfer activity	|MF	|38|
+|actin filament binding|	MF|56|
+|kinase regulator activity	|MF|	73|
+|integrin binding	|MF	|44|
+|low-density lipoprotein particle receptor binding|	MF|	15|
+|promoter-specific chromatin binding	|MF	|27|
+|protein kinase regulator activity|	MF	|66|
+|lipoprotein particle receptor binding|	MF|	16|
+|active monoatomic ion transmembrane transporter activity	|MF|	36|
 
 <img width="768" height="496" alt="image" src="https://github.com/user-attachments/assets/ff30d14b-58d4-48c7-8540-78c6afe4948c" />
 
@@ -61,7 +125,13 @@ Tujuan:
 
 <img width="760" height="504" alt="image" src="https://github.com/user-attachments/assets/93196ed6-095a-4b3a-b0bb-a7cd194be29d" />
 
-6) Perbandingan Hasil Percobaan dan Jurnal
+4) Perbandingan Hasil Percobaan dan Jurnal
+
+Terdapat beberapa perbedaan dalam hasil analisis enrichment antara penelitian ini dan penelitian Wang et al. (2023). Dalam penelitian Wang et al. (2023), hasil analisis GO dan KEGG menunjukkan keterkaitan yang kuat dengan jalur siklus sel (cell cycle) dan replikasi DNA, yang merupakan mekanisme utama dalam proliferasi sel kanker. Sebaliknya, pada penelitian ini, hasil analisis GO menunjukkan pengayaan yang lebih dominan pada proses translasi sitoplasmik, pemrosesan RNA, metabolisme energi, serta regulasi transport protein, sementara analisis KEGG menunjukkan keterkaitan dengan beberapa jalur penyakit seperti neurodegenerative diseases dan viral infection pathways.
+
+Perbedaan ini kemungkinan disebabkan oleh beberapa faktor metodologis, seperti perbedaan pendekatan analisis bioinformatika, metode penyaringan gen, serta database yang digunakan untuk analisis enrichment. Selain itu, variasi dalam parameter analisis atau perangkat lunak yang digunakan juga dapat memengaruhi jalur biologis yang teridentifikasi sebagai signifikan.
+
+Meskipun terdapat perbedaan dalam jalur biologis yang teridentifikasi, kedua penelitian tersebut tetap menunjukkan kesamaan dalam kesimpulan utama, yaitu bahwa disregulasi ekspresi gen yang berkaitan dengan proliferasi sel, regulasi siklus sel, dan metabolisme seluler merupakan faktor penting dalam perkembangan kanker serviks. Oleh karena itu, hasil penelitian ini mendukung temuan sebelumnya dan memberikan perspektif tambahan mengenai proses biologis dan jalur molekuler yang mungkin terlibat dalam patogenesis kanker serviks.
 
 
 # Kesimpulan
