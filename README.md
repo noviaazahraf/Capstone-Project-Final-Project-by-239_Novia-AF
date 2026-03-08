@@ -16,7 +16,7 @@ Tujuan:
 1)	Melakukan identifikasi Differentially Expressed Genes (DEG) antara sampel kanker cervix dan normal dengan aplikasi GEO2R menggunakan dataset GSE9750
 2)	Melakukan identifikasi Differentially Expressed Genes (DEG) antara sampel kanker cervix dan normal dengan Bahasa R menggunakan dataset GSE9750
 3)	Melakukan analisis enrichment yang mencakup Gene Ontology (GO) dan KEGG Pathway
-4)	Melakukan studi komparatif antara hasil olah data mandiri dengan temuan pada jurnal referensi Wang et al. (2023) 
+4)	Melakukan perbandingan antara hasil olah data mandiri dengan temuan pada jurnal referensi Wang et al 
 
 
 # Metode
